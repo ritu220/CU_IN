@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cuinlogo{
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    filter: drop-shadow(2px 1px 1px #222);
+}
+.image {
+    /* height: 30vh;
+    width: 12px; */
+    position: absolute;
+    margin-top: -14rem;
+    right: 36.4rem;
+}
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 14vh 20vh;
+    padding: 240px 3px;
+    border-radius: 20px;
+    border: 6px solid white;
+    overflow: hidden;
+    box-shadow: 0 18px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.signup {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+    margin: -107px -86px;
+    padding: 103.8px 144.5px;
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 5%;
+    top: 28.5%;
+    left: 63.7%;
+}
+
+.signup h1 {
+    display: flex;
+    padding-top: 4px;
+    margin: 0px -40px;
+    font-size: 30px;
+}
+
+#one {
+    display: flex;
+    margin: -5px 3px;
+}
+
+#two {
+    position: relative;
+    color: rgb(31, 31, 160);
+    margin: -8px 3px;
+    text-decoration: none;
+}
+#two:hover{
+    cursor: pointer;
+    color: rgb(74, 74, 237);
+}
+.signup p {
+    color: rgb(31, 31, 160);
+    font: bold;
+    display: flex;
+    padding: 5px 0px;
+    margin: 0px -40px;
+}
+
+.bars {
+    width: 100%;
+}
+
+.bars input {
+    display: flex;
+    width: 145%;
+    margin: 15px -40px;
+    padding: 8px 10px;
+    font-size: 13px;
+    text-align: start;
+    border-radius: 4px;
+    border: 1.5px solid rgb(119, 112, 112);
+    background: none;
+    outline: none;
+    color: black;
+    background-color: rgba(138, 150, 177, 0.4);
+}
+.bars input:hover {
+    display: flex;
+    width: 145%;
+    margin: 15px -40px;
+    padding: 7.5px 10px;
+    font-size: 13px;
+    text-align: start;
+    border-radius: 4px;
+    border: 1.5px solid rgb(119, 112, 112);
+    background: none;
+    outline: none;
+    color: black;
+    background-color: rgba(138, 150, 177, 0.4);
+}
+
+#bar1:hover {
+    border: 2px solid rgb(31, 31, 160);
+}
+#bar2:hover {
+    border: 2px solid rgb(31, 31, 160);
+
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    color: white;
+    width: 159%;
+    cursor: pointer;
+    outline: none;
+    margin: 15px -40px;
+    padding: 8px 13px;
+    border-radius: 10vh;
+    background-color: rgb(31, 31, 160);
+    border: 2px solid rgb(31, 31, 160);
+    outline: none;
+    font-size: 15px;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.btn::after {
+    content: ' >> ';
+    position: absolute;
+    opacity: 0;
+    top: 9px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+button:hover::after {
+    opacity: 1;
+    right: 100px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cu-In login page</title>
+      <link rel="stylesheet" href="src\styles\Login.css">
+      <script src="https://kit.fontawesome.com/1c2f3b8ca1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+      <nav>
+            <img id="logo" src="src\images\LogIn\cuinlogo.png" height="63">
+            <ul>
+                
+                  <div class="top-right">
+                  <li><i class="fa-solid fa-building-columns fa-xl"></i><h4>Socities</h4></li>
+                  <li><i class="fa-sharp fa-solid fa-people-group fa-xl"></i><h4>People</h4></li>
+                  
+                  <li><i class="fa-regular fa-calendar fa-xl"></i><h4>Events</h4></li>
+                  <li><button>Join Now</button></li>
+                  <li><button>Sign Now</button></li>
+                 
+                  </div>
+                  </ul>               
+      </nav>
+
+      <div class="container">
+            <div class="form">
+              <h1 class="heading">Welcome to your professional community of Chandigarh University</h1>
+              <div class="formcontent">
+                  <form action="" method="get">
+                       <p> <input class="email" type="text" name="name" placeholder="Email or phone" required></p>
+                      <p>  <input type="password" name="password" placeholder="Password" required></p>
+                  </form>
+                  <div class="forgot">
+                        <h4 class="forgotpassword">Forgot password?</h4>
+                  </div>
+                  <div class="signin" id="loginbtn">
+                        <button>
+                              Log In
+                        </button>
+                        
+                        
+                        <h2><span> or </span></h2>
+                       
+                  </div>
+                  <div class="more_options">
+                        <button>
+                              <img src="src\images\LogIn\googlelogo.png" alt="google" height="17px" width="17px"></img>  Sign in with Google
+                        </button>
+                        <button>
+                              New to CU_In? Join Now
+                        </button>  
+                  </div>
+
+              </div>
+            </div>
+           
+            <div class="pictures">
+            <img src="src\images\LogIn\cuin.jpg" width="570px" height="550px" alt="GROUPIMAGE">
+            </div>         
+      </div>
+      <div class="interest_box">
+            <div class="text">
+                  <pre>
+      <h1>Explore societies you
+are interested in</h1>
+              </pre>
+              
+            </div>
+            <div class="box_content">
+                  <div class="societies">
+                        <span id="heading"> Societies </span>
+                        <div class="society_tabs">
+                          <button id="ieee">IEEE community</button> 
+                          <button id="geeks">Geeks for Geeks</button>
+                          <button>Alexa developer</button> 
+                          <button id="robotics">Robotics</button>
+                          <button>Photograpghy</button>
+                          <button>Theatres and Drama</button>
+                          <button>Competitive Programming</button>
+                          <button id="dbc">Aerospace</button> 
+                          <button id="dbc">NSS</button>
+                          <button id="dbc">NCC</button>
+                          <button id="dbc">Spectrum debate club</button>
+                          
+
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="events">
+            <div class="text1">
+                  <pre>
+      <h1>Find the right opportunities 
+or events for you</h1>
+              </pre>
+              
+            </div>
+            <div class="event_tabs">
+               <div class="opportunities">
+                  <span id="heading2">Events Insights</span>
+                  <div class="society_tabs">
+                        <button id="ieee">Hackathons</button> 
+                        <button id="geeks">Ideathon</button>
+                        <button>Startup Fair</button> 
+                        <button id="robotics">CU_Fest</button>
+                        <button>Project Exhibition</button>
+                        <button>Modelling Competition</button>
+                        <button>Competitive Programming</button>
+                        <button id="dbc">Aerospace</button> 
+                      </div>
+               </div>   
+            </div>
+      </div>
+
+      <div class="quote">
+            <div class="quote1">
+                  <h1>Let's break down the barrier of communication gap<br>and connect with your peers.</h1>
+                  <div class="para">
+                       <p>
+                        In college, we have the chance to build a community of like-minded individuals who share our passions and aspirations. Together, we create a supportive environment where ideas are nurtured and dreams take flight.
+                        <br>
+                        Through collaboration, empathy, and friendship, we celebrate the diverse mosaic of humanity. Our college community empowers us to dream boldly and overcome challenges, fostering a legacy of compassion and excellence. By uniting our voices and talents, we become catalysts for positive change, leaving a lasting impact on the world around us.
+                       </p> 
+                  </div>
+            </div>
+
+            <div class="pic1">
+                <img src="src\images\LogIn\teamNerdbots.jpeg" alt="group_pic" height="395" width="440">   
+            </div>
+      </div>
+
+      <script>
+        let profileMenu = document.getElementById("profileMenu")
+
+function toggleMenu() {
+   profileMenu.classList.toggle("open-menu");
+}
+
+document.getElementById("loginbtn").addEventListener("click", function() {
+ // Redirect the user to another HTML file
+ window.location.href = "main.html";
+});
+   </script>
+     
+</body>
+</html>

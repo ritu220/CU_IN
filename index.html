@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-Page</title>
+    <link rel="stylesheet" href="src\styles\Front-Page Project.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="wonders"><img src="src\images\Front\wonders2.png" alt="" height="210"></div>
+        <img id="cu" src="src\images\Front\cu.png" alt="" height="500" width="748.8">
+        <div class="transparent">Transparent</div>
+        <img id="cuinlogo" src="src\images\Front\cuinlogo.png" alt="" height="63">
+        <img id="lightblue" src="src\images\Front\Darkblue.jpg" alt="" height="709" width="786">
+        <img id="darkblue" src="src\images\Front\Lightblue.jpg" alt="" height="709" width="750">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <button class="Joinbtn" id ="myButton">Join now</button>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h2>Never Stop</h2>
+            <h1>LEARNING</h1>
+            <p>Experience the power of community, the joy of creativity, and the thrill of discovery. <br>
+                Connect with fellow students, share your achievements, and showcase your talents. <br>
+                Discover new opportunities, stay up-to-date on the latest events and competitions, <br>
+                and never miss a chance to shine.
+            </p>
+            <a href="login.html"><button class="btn">Get Started</button></a> <!-- Modified line -->
+        </div>
+    </div>
+
+    <!--##########################################------TIme ------##############################################-->
+
+    <!-- <div class="time">
+        Date / Time :&nbsp; <span id="time"></span>
+    </div>
+    <script>
+        function displayTime() {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime, 1000);
+    </script> -->
+
+    <script>
+       
+document.getElementById("myButton").addEventListener("click", function() {
+ // Redirect the user to another HTML file
+ window.location.href = "signin.html";
+});
+   </script>
+</body>
+
+</html>

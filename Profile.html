@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="src/styles/Profile Project.css">
+    <link rel="stylesheet" href="src\styles\main.css">
+
+    <style>
+      
+    </style>
+</head>
+<body>
+   
+  <nav class="navbar">
+    <div class="navbar-left">
+        <div class="logo" id="index"><img src="./src/images/cuinlogo.png" height="45"></div>
+        <a href="./index.html"></a>
+        <div class="search-box">
+            <img src="./src/images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li>
+                <a href="main.html" class="active-link"><img src="./src/images/home.png"><span>Home</span></a>
+                <a href="event.html"><img src="./src/images/network.png"><span>Events</span></a>
+                <a href="socities.html"><img src="./src/images/message.png"><span>Societies</span></a>
+                <a href="#"><img src="./src/images/notification.png"><span>Notifications</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <div class="online">
+
+            <img src="./src/images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+
+
+    <!-- profile-drop-down-menu -->
+
+    <div class="profile-menu-wrap">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="./src/images/user-1.jpg" id="profile">
+                <div>
+                    <h3>Sumit Arora</h3>
+                    <a href="Profile.html" >See Your Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+
+<!-- 
+navbar close -->
+<div class="banner"></div>
+<div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <img src="src\images\profile.png" alt="Paris" style="width:170px;height:170px;border-radius: 50%; border: 3px solid white; box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);">
+      </div>
+      <div class="flip-box-back">
+        <div id="text1">Hey!</div>
+      </div>
+    </div>
+  </div>
+  <div class="profilebox">
+    <div id="text2">N A M E
+      <div id="text3">Lorem ipsum dolor sit amet.</div>
+    </div>
+    <div class="buttons">
+      <button class="Friends">Friends</button>
+      <button class="Follow">Follow</button>
+      <button class="Message">Message</button>
+      <textarea name="text"id="text"cols="30"rows="7"class="about" maxlength="200"></textarea>
+    </div>
+    
+  </div>
+  <div class="accountbox"></div>
+  <script>
+    
+document.getElementById("index").addEventListener("click", function() {
+  // Redirect the user to another HTML file
+  window.location.href = "index.html";
+});
+  </script>
+</body>
+</html>

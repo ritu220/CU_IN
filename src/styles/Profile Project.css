@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: rgb(97, 155, 241);
+  height: 35vh;
+  width: 214.8vh;
+  margin-left: 1.7px;
+  margin-top: 1.7px;
+}
+
+.flip-box {
+  width: 170px;
+  height: 170px;
+  margin: -125px 1096px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  } 
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  border-radius: 50%;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+#text1 {
+  display: inline-block;
+  position: relative;
+  font-size: 250%;
+  margin: 60px auto;
+}
+
+#text2 {
+  margin: 140px 139px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 170%;
+}
+
+#text3 {
+  font-size: small;
+  margin: 10px -27px;
+}
+
+.profilebox {
+  background-color: rgb(250, 250, 250);
+  height: 60vh;
+  width: 50vh;
+  margin-left: 1000px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.accountbox {
+  background-color: rgb(250, 250, 250);
+  height: 60vh;
+  width: 105vh;
+  margin-left: 155px;
+  margin-top: -446px;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.Follow {
+  padding: 4px 20px;
+  margin: auto 2px;
+  font-weight: bold;
+}
+
+.Friends {
+  padding: 4px 20px;
+  margin: 0px 2px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.Message {
+  padding: 4px 20px;
+  margin: 0px 2px;
+  display: inline-block;
+  font-weight: bold;
+}
+.buttons{
+  position: absolute;
+  display: inline-block;
+  margin: 220px 33px;
+  padding: 15px 5px;
+}
+.about{
+  margin: -172px 150px;
+  background-color: rgb(197, 193, 193);
+  border-radius: 5px;
+  
+}
+.about{
+  margin: 20px 3px;
+  padding: 0px 25px;
+  display: flex;
+  background-color: rgba(242, 237, 237, 0.327);
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  resize: none;
+  outline: none;
+}

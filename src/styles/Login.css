@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat+Alternates:ital@1&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+} 
+nav{
+
+ }
+ #logo{
+     margin-top: 20px; 
+     margin-left: 180px;
+    
+     position: relative;
+ }
+ nav ul {
+      list-style: none;
+      
+}
+.top-right{
+      
+      display: flex;
+      
+      margin: -55px 744px;
+      
+}
+#join{
+      padding: 10px 10px;
+      width: 10px;
+      background-color: rebeccapurple;
+}
+.top-right li{
+      color: rgb(128, 128, 128);
+      margin: 0px 27px;
+}
+
+nav ul .logo{
+      
+      margin: 0px 180px;
+}
+.top-right h4{
+      margin: 10px -6px;
+}
+.buttons{
+      background-color: red;
+      width: 10px;
+}
+.form{
+      
+      width: 50vw;
+}
+.heading{
+      color: rgba(165, 42, 42, 0.846);
+      font-family: 'Wix Madefor Text', sans-serif;
+      
+}
+.pictures{
+      
+      width: 50vw;
+}
+.container{
+      display: flex;
+      margin-top: 130px;
+      margin-left: 70px;
+}
+.formcontent{
+ margin-top: 5px;
+ padding: 10px;
+ 
+}
+input[type="text"],
+input[type="password"]{
+      width: 60%;
+      padding: 16px;
+      font-size: 15px;
+      margin: 8px;
+      border-radius: 5px;
+}
+.forgotpassword{
+      color: #0a66c2;
+      padding: 10px;
+}
+.more_options button{
+      background-color: white;
+      
+      padding: 12px 20px;
+      align-items: center;
+      border-radius: 27px;
+      cursor: pointer;
+      width: 60%;
+      font-size: 20px;
+      margin: 0px 10px;
+      margin-bottom: 10px;
+}
+
+.signin{
+     padding: 12px; 
+}
+.signin button{
+      background-color: #0a66c2;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 27px;
+      cursor: pointer;
+      width: 60%;
+      font-size: 15px;
+      margin: 0px 10px;
+}
+.signin button:hover{
+      background-color: rgb(6, 6, 119) ;
+}
+.more_options button{
+      font-size: 15px;
+      
+}
+
+.more_options button:hover{
+      background-color: whitesmoke;
+      
+}
+.more_options button img{
+      padding: 5px;
+}
+.linebreak {
+      
+            height: 1px;
+            border: 0;
+            background: black;
+            width: 400px;
+            margin-top: 30px;
+          
+    }
+    h2 {
+      width: 60%; 
+      text-align: center; 
+      border-bottom: 1px solid #000; 
+      line-height: 0.1em;
+      margin: 10px 0 20px; 
+      padding: 10px;
+   } 
+   
+   h2 span { 
+       background-color: white;
+       padding:0 10px;
+       font-size: 20px; 
+       margin: 10px;
+   }
+   .interest_box{
+      background-color: grey;
+      height: 270px;
+      margin-top: 30px;
+      display: flex;
+        
+   }
+   .text{
+      width: 40vw;
+      
+     
+   }
+   .text h1{
+      
+      margin: 51px 71px;
+   }
+   .box_content{
+      width: 60vw;
+   }
+   #heading{
+      color: white;
+      font-size: 20px;
+   }
+   #heading2{
+      color: white;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+   }
+   .opportunities{
+      margin: 30px 30px;
+      padding: 30px 40px;
+   }
+ 
+   .societies{
+      margin: 30px 30px;
+      padding: 25px 40px;
+   }
+   .society_tabs{
+      margin-top: 10px;   
+   }
+   .society_tabs button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 27px;
+    font-size: 15px;
+   }
+   .society_tabs button:hover{
+      background-color: rgba(245, 245, 245, 0.812);
+   }
+   #ieee{
+      margin: 3px 7px;
+   }
+   #robotics{
+      margin: 3px 7px;
+   }
+   #dbc{
+      margin: 3px 7px;
+   }
+   #geeks{
+     margin-left: -2px; 
+   }
+   .events{
+      background-color: #0a66c2;
+      height: 300px;
+      margin-top: 30px;
+      display: flex;
+   }
+   .text1{
+      width: 40vw; 
+   }
+   .text1 h1{
+      margin: 20px 71px;
+   }
+   .quote{
+      background-color: antiquewhite;
+      height: 70vh;
+      margin-top: 30px;
+      width: 100vw;
+
+}
+.quote1{
+      position: absolute;
+      
+
+   }
+   .pic1{
+     
+      position: absolute;
+      left: 48rem;
+      height: 20vh;
+      
+      height: 50vh;
+      width: 46.5vw;
+   }
+   .tagline{
+      margin: 20px 20px;
+   }
+   .para{
+      margin: 20px 20px;
+     
+      height: 20vh;
+      width: 40vw;
+      
+   }
+   .para p{
+      line-height: 30px;
+      background-color: yellow;
+      font-size: 20px;
+      margin: 25px 10px;
+      
+
+      
+   }
+   .quote h1{
+       color: rgba(165, 42, 42, 0.777);
+       margin: 15px 20px;
+
+   }
+   .pic1 img{
+      border-radius: 100%;
+      margin-top: 60px;
+      margin-left: 70px;
+   }
+   
+   
+  
+
+
+
+

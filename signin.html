@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="src\styles\signup.css">
+    <script src="https://kit.fontawesome.com/23d989e400.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img id="cuinlogo" src="src\images\Signup\cuinlogo.png" height="63"alt="">
+        <div class="box">
+            <div class="image"><img src="src\images\Signup\CI2.jpg" alt="" height="450px" width="800px"></div>
+            <div class="signup">
+                <h1>Sign in</h1>
+                <p id = "one"><p>Stay updated on your professional world</p>
+                <div class="bars">
+                    <input id ="bar1"type="email" name="email" id="email" placeholder="Cuchd ID">
+                </div>
+                <div class="bars">
+                    <input id = "bar2" type="password" name="password" id="password" placeholder="Password" maxlength="15">
+                </div>
+                <p><a id = "two" href="">Forgot Password ?</a></p>
+                <button class="btn" id="myButton">Sign in</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+  // Redirect the user to another HTML file
+  window.location.href = "main.html";
+});
+    </script>
+</body>
+</html>

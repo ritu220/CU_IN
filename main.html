@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src\styles\main.css">
+    <script src="https://kit.fontawesome.com/768071e182.js" crossorigin="anonymous">
+        
+
+    </script>
+    <title>CU_IN</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="logo" id="index"><img src="./src/images/cuinlogo.png" height="45"></div>
+            <a href="./index.html"></a>
+            <div class="search-box">
+                <img src="./src/images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="./src/images/home.png"><span>Home</span></a>
+                    <a href="event.html"><img src="./src/images/network.png"><span>Events</span></a>
+                    <a href="socities.html"><img src="./src/images/message.png"><span>Societies</span></a>
+                    <a href="#"><img src="./src/images/notification.png"><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+
+                <img src="./src/images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+
+        <!-- profile-drop-down-menu -->
+
+        <div class="profile-menu-wrap">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./src/images/user-1.jpg" id="profile">
+                    <div>
+                        <h3>Sumit Arora</h3>
+                        <a href="Profile.html" >See Your Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- 
+    navbar close -->
+
+    <div class="container">
+        <!-- ------left-sidebar-------- -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <!-- <img src="./src/images/covern1.png" width="100%"> -->
+                <div class="sidebar-profile-info">
+                    <!-- <img src="./src/images/user-1.png"> -->
+                    <h3>Explore</h3>
+                        <img id="sidebarcircle1" src="./src/images/sidebarcircle1.png" alt=""> <a id="newsfeed" href="event.html">Newsfeed</a> <br>
+                        <img id="sidebarcircle2" src="./src/images/sidebarcircle2.png" alt=""> <a id="achievements" href="#">Achievements</a> <br>
+                        <img id="sidebarcircle3" src="./src/images/sidebarcircle3.png" alt=""> <a id="stories" href="">Explore Stories</a> <br>
+                        <img id="sidebarcircle4" src="./src/images/sidebarcircle4.png" alt=""> <a id="groups" href="socities.html">Explore Societies</a> <br>
+                        <img id="sidebarcircle5" src="./src/images/sidebarcircle5.png" alt=""> <a id="profile" href="profile.html">Author Profile</a>
+                </div>
+                <div class="sidebar-profile-link">
+                
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>More Pages</h3>
+                <i class="fa-solid fa-location-dot"></i><a id = "event" href="event.html">Latest Event </a>
+                <i class="fa-solid fa-bolt"></i><a id ="spotlight" href="#">Student Spotlight </a>
+                <i class="fa-solid fa-map"></i><a id = "map" href="https://www.google.com/maps/search/chandigarh+university+map/@30.7773345,76.5806888,14z/data=!3m1!4b1"> Campus Map </a>
+            </div>
+          
+            <div class="sidebar-down">
+                <h3>Account</h3>
+                <i class="fa-sharp fa-solid fa-gear"></i><a id ="settings" href="#"> Settings</a>
+                <i class="fa-solid fa-file"></i><a id = "report" href="#"> Report </a>
+                <i class="fa-solid fa-users"></i><a id ="aboutus" href="#"> About Us </a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>  
+            </div>
+
+            
+
+        </div>
+        <!-- ------main-content-------- -->
+        <div class="main-content">
+
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="./src/images/user-1.png">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+
+                <div class="create-post-links">
+                    <li id="myphoto"><img src="./src/images/photo.png">Photo</li>
+                    <li id="myvideo"><img src="./src/images/video.png">Video</li>
+                    <li id="myEvent"><img src="./src/images/event.png">Event</li>
+                    <li id="postbtn">Post</li>
+                </div>
+            </div>
+
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="./src/images/down-arrow.png"></span></p>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="./src/images/user-3.jpg">
+                    <div>
+                        <h1>Sugandha Sharma</h1>
+                        <small>Founder and CEO at Geeks for Geeks Local Chapter CU | Angel investor</small>
+                        <small>2 hours ago </small>
+                    </div>
+                </div>
+
+
+                <p>Hello Cu students I welcome you all in my department to attend this wonderful event on Techno fest. I am happy to announce that this is my team for the SIH hackathon. It feels great to be their mentor and have the pride and courage to do so.</p>
+                <img src="./src/images/1.JPG" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="./src/images/thumbsup.png">
+                        <img src="./src/images/love.png">
+                        <img src="./src/images/clap.png">
+                        <span class="liked-users">Mohit Verma and 75 others</span>
+                    </div>
+
+                    <div>
+                        <span>115 comments &middot; 45 shares</span>
+                    </div>
+
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="./src/images/user-1.png" class="post-activity-user-icon">
+                        <img src="./src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="./src/images/user-3.JPG">
+                    <div>
+                        <h1>Jayant Sharma</h1>
+                        <small>Founder and CEO at Gallelio Group | Chandigarh University</small>
+                        <small>7 hours ago </small>
+                    </div>
+                </div>
+
+
+                <p>Hello everyone I welcome you all in our college seminar hall where we can connect and grow together. this is the first event i am going to host today. I wish you all the best for thhe upcoming challenges.</p>
+                <img src="./src/images/post-image-1.JPG" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="./src/images/thumbsup.png">
+                        <img src="./src/images/love.png">
+                        <img src="./src/images/clap.png">
+                        <span class="liked-users">Naman Shrivastava</span> and 75 others</span>
+                    </div>
+
+                    <div>
+                        <span>115 comments &middot; 45 shares</span>
+                    </div>
+
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="./src/images/user-1.png" class="post-activity-user-icon">
+                        <img src="./src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="./src/images/user-4.JPG">
+                    <div>
+                        <h1>Alok Kumar</h1>
+                        <small>Founder and CEO at CUIN | Angel investor</small>
+                        <small>2 hours ago </small>
+                    </div>
+                </div>
+
+
+                <p>Congratulations Vandana Chauhan on grabbing the hisghest placement offer from one of the best companies of or group.</p>
+                <img src="./src/images/post-image-2.JPG" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="./src/images/thumbsup.png">
+                        <img src="./src/images/love.png">
+                        <img src="./src/images/clap.png">
+                        <span class="liked-users">Ritu Mahto and 125 others</span>
+                    </div>
+
+                    <div>
+                        <span>150 comments &middot; 60 shares</span>
+                    </div>
+
+
+
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="./src/images/user-1.png" class="post-activity-user-icon">
+                        <img src="./src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="./src/images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- ------right-sidebar-------- -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-news">
+                
+                <img src="./src/images/more.png" class="info-icon">
+                <h3>Upcoming Events</h3>
+                <a href="#">CU Digital Coding Collaboration</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">Coding Ninjas Internship contest</a>
+                <span>7h ago &middot; 27,232 readers</span>
+
+                <a href="#">ION Internship drive</a>
+                <span>16h ago &middot; 35,212 readers</span>
+
+                <a href="#">Startup Funding competition</a>
+                <span>2d ago &middot; 5,623 readers</span>
+
+                <a href="#">CU FEST</a>
+                <span>12h ago &middot; 59,212 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="./src/images/user-1.png">
+                        <div>
+                            <h3>Sumit Arora</h3>
+
+                            <a href="#" class="link-name">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="profile-menu-link">
+                        <img src="./src/images/feedback.png">
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="./src/images/setting.png">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="./src/images/help.png">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="./src/images/display.png">
+                        <p>Display & Accessibility</p>
+                        <span>></span>
+                    </a>
+                    <a href="index.html" class="profile-menu-link">
+                        <img src="./src/images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- <div class="sidebar-ad">
+                <small>Ad</small>
+                <p>Master the 5 principles of Web Design</p>
+                <div>
+                    <img src="./src/images/user-1.png">
+                    <img src="./src/images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div> -->
+            
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <!-- <div class="copyright-msg">
+                    <img src="./src/images/logo.png">
+                    <p>Linkedup &#169; 2022. All Right reserved</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script>
+         let profileMenu = document.getElementById("profileMenu")
+
+function toggleMenu() {
+    profileMenu.classList.toggle("open-menu");
+}
+
+document.getElementById("myEvent").addEventListener("click", function() {
+  // Redirect the user to another HTML file
+  window.location.href = "event.html";
+});
+
+document.getElementById("profile").addEventListener("click", function() {
+  // Redirect the user to another HTML file
+  window.location.href = "Profile.html";
+});
+
+document.getElementById("index").addEventListener("click", function() {
+  // Redirect the user to another HTML file
+  window.location.href = "index.html";
+});
+    </script>
+</body>
+</html>
