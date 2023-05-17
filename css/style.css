@@ -1,0 +1,194 @@
+/* This is a Minor Web Development project done using HTML, CSS, JS and Bootstrap
+Author: Sayak Karar */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Flamenco', cursive;
+}
+
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #000;
+    font-family: 'Flamenco', cursive;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+.clearfix::after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 10px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    transform: translate(50%, 50%);
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+
+.main-nav li a{
+    padding: 5px, 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.main-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-48%, -45%);
+}
+
+h1{
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.colorchange{
+    animation: colorchange 1s infinite;
+    font-size: 200%;
+}
+
+@keyframes colorchange{
+    0%{color: red;}
+    25%{color: #bf55ec;}
+    50%{color: #fff;}
+    100%{color: #bf55ec;}
+}
+
+.mobile-icon{
+    display: none;
+}
+
+form{
+    margin:2em 0;
+    width:25em;
+    height:25em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:1em 1em;
+    background:#eee;
+    border-radius:10px;
+    box-shadow:10px 10px 30px rgba(1,1,1,.15),-10px -10px 30px rgba(3,3,3,0.1);
+}
+input{
+    width:100%;
+    height:2.5em;
+    outline:none;
+    border:2px solid deepskyblue;
+    padding:5px 5px;
+    font-size:1rem;
+    color:rgba(1,1,1,.8);
+    border-radius:5px;
+    background:transparent;
+}
+input:active,input:focus{
+    background:#fff;
+  }
+button{
+    padding:8px 5px;
+    font-size:1rem;
+    border-radius:5px;
+    border:2px solid navy;
+    background:navy;
+    color:#fff;
+    cursor:pointer;
+    transition:.3s ease;
+    
+}
+button:hover{
+    background:transparent;
+    color:Navy;
+}
+
+#featured-3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer{
+    color: #000;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+}
+
+@media only screen and (max-width: 768px){
+    h1{font-size: 180%;}
+
+    .main-nav{display: none;}
+
+    .mobile-icon{
+        float: right;
+        display: block;
+        color: #fff;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .main-nav{float: left;}
+
+    .main-nav li{
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    h1{font-size: 100%;}
+}
+
+@media only screen and (max-width: 480px){
+    h1{font-size: 10vw;}
+}
